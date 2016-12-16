@@ -1,6 +1,6 @@
 # List memberOf
 
-Retrieve the connectorGroups the connectors is a member of.
+Retrieve the connectorgroup the connector is a member of.
 ### Prerequisites
 The following **scopes** are required to execute this API: *Directory.ReadWrite.All Or Directory.AccessAsUser.All*
 ### HTTP request
@@ -19,7 +19,7 @@ This method supports the [OData Query Parameters](http://graph.microsoft.io/docs
 ### Request body
 Do not supply a request body for this method.
 ### Response
-If successful, this method returns a `200 OK` response code and collection of [connectorGroups](../resources/connectorgroup.md) objects in the response body.
+If successful, this method returns a `200 OK` response code and collection of [connectorGroup](../resources/connectorgroup.md) objects in the response body.
 ### Example
 ##### Request
 Here is an example of the request.

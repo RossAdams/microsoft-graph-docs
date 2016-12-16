@@ -12,8 +12,8 @@
 
 | Method		   | Return Type	|Description|
 |:---------------|:--------|:----------|
-|[Get connectors](../api/connector_get.md) | [connectors](connector.md) |Read properties and relationships of connectors object.|
-|[List memberOf](../api/connector_list_memberof.md) |[connectorGroups](connectorgroup.md) collection| Get the connectorGroups object associated with the connector.|
+|[Get connector](../api/connector_get.md) | [connector](connector.md) |Read properties and relationships of connector object.|
+|[List memberOf](../api/connector_list_memberof.md) |[connectorGroup](connectorgroup.md) collection| Get the connectorGroup object associated with the connector.|
 
 ### Properties
 | Property	   | Type	|Description|
@@ -26,7 +26,7 @@
 ### Relationships
 | Relationship | Type	|Description|
 |:---------------|:--------|:----------|
-|memberOf|[connectorGroups](connectorgroup.md) collection| The connectorGroups that the connect is a member of.<br>Read-only. |
+|memberOf|[connectorGroup](connectorgroup.md) collection| The connectorGroup that the connect is a member of.<br>Read-only. |
 
 ### JSON representation
 

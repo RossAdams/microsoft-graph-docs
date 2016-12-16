@@ -1,6 +1,6 @@
-# Add Connector to connectorGroups
+# Add Connector to connectorGroup
 
-Use this API to add a connector to a new connectorGroups.
+Use this API to add a connector to a new connectorGroup.
 ### Prerequisites
 The following **scopes** are required to execute this API: *Directory.ReadWrite.All Or Directory.AccessAsUser.All*
 ### HTTP request
@@ -15,11 +15,11 @@ POST /connectors/<id>/memberOf
 | Authorization  | Bearer. Required|
 
 ### Request body
-In the request body, supply a JSON representation of [connectorGroups](../resources/connectorgroup.md) object.
+In the request body, supply a JSON representation of [connectorGroup](../resources/connectorgroup.md) object.
 
 
 ### Response
-If successful, this method returns `201, Created` response code and [connectorGroups](../resources/connectorgroup.md) object in the response body.
+If successful, this method returns `201, Created` response code and [connectorGroup](../resources/connectorgroup.md) object in the response body.
 
 ### Example
 ##### Request
@@ -37,7 +37,7 @@ Content-length: 99
   "@odata.id": "https://graph.microsoft.com/{ver}/connectorGroups/<id>"
 }
 ```
-In the request body, supply a JSON representation of [connectorGroups](../resources/connectorgroup.md) object.
+In the request body, supply a JSON representation of [connectorGroup](../resources/connectorgroup.md) object.
 ##### Response
 Here is an example of the response. Note: The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
 <!-- {

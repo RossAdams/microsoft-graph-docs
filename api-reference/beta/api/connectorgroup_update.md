@@ -1,6 +1,6 @@
 # Update connectorGroups
 
-Update the properties of connectorGroups object.
+Update the properties of connectorgroup object.
 ### Prerequisites
 The following **scopes** are required to execute this API: *Directory.ReadWrite.All Or Directory.AccessAsUser.All*
 ### HTTP request
@@ -23,7 +23,7 @@ In the request body, supply the values for relevant fields that should be update
 |name|String|The name of the connectorGroup.|
 
 ### Response
-If successful, this method returns a `200 OK` response code and updated [connectorGroups](../resources/connectorgroup.md) object in the response body.
+If successful, this method returns a `200 OK` response code and updated [connectorGroup](../resources/connectorgroup.md) object in the response body.
 ### Example
 ##### Request
 Here is an example of the request.
