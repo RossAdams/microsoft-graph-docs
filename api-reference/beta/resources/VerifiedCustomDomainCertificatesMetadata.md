@@ -26,7 +26,7 @@ Here is a JSON representation of the resource.
 ```json
 {
   "thumbprint": "String",
-  "subjectName": "String (identifier)",
+  "subjectName": "String",
   "issuerName": "String",
   "issueDate": "datetime",
   "expiryDate": "datetime"
