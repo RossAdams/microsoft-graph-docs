@@ -1,6 +1,6 @@
-# Create connectorGroup
+# Create connectorGroups
 
-Use this API to create a new connectorGroup.
+Use this API to create a new connectorGroups.
 ### Prerequisites
 The following **scopes** are required to execute this API: *Directory.ReadWrite.All Or Directory.AccessAsUser.All*
 ### HTTP request
@@ -15,11 +15,11 @@ POST /connectorGroups
 | Authorization  | Bearer. Requried|
 
 ### Request body
-In the request body, supply a JSON representation of [connectorGroup](../resources/connectorgroup.md) object.
+In the request body, supply a JSON representation of [connectorGroups](../resources/connectorgroup.md) object.
 
 
 ### Response
-If successful, this method returns `201, Created` response code and [connectorGroup](../resources/connectorgroup.md) object in the response body.
+If successful, this method returns `201, Created` response code and [connectorGroups](../resources/connectorgroup.md) object in the response body.
 
 ### Example
 ##### Request

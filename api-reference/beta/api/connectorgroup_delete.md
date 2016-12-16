@@ -1,6 +1,6 @@
-# Delete connectorGroup
+# Delete connectorGroups
 
-Delete a connectorGroup.
+Delete a connectorGroups.
 ### Prerequisites
 The following **scopes** are required to execute this API: *Directory.ReadWrite.All Or Directory.AccessAsUser.All*
 

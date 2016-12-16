@@ -1,6 +1,6 @@
 # List applications
 
-Retrieve a list of application objects associated with the connectorGroup.
+Retrieve a list of application objects associated with the connectorGroups.
 ### Prerequisites
 The following **scopes** are required to execute this API: *Directory.ReadWrite.All Or Directory.AccessAsUser.All*
 ### HTTP request

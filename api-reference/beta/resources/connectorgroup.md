@@ -1,4 +1,4 @@
-# connectorGroup resource type
+# connectorGroups resource type
 
 
 
@@ -7,13 +7,13 @@
 
 | Method		   | Return Type	|Description|
 |:---------------|:--------|:----------|
-|[Get connectorGroup](../api/connectorgroup_get.md) | [connectorGroup](connectorgroup.md) |Read properties and relationships of connectorGroup object.|
+|[Get connectorGroups](../api/connectorgroup_get.md) | [connectorGroups](connectorgroup.md) |Read properties and relationships of connectorGroup object.|
 |[Create application](../api/connectorgroup_post_applications.md) |[application](application.md)| Associate an application with the connector group by posting to the applications collection.|
 |[List applications](../api/connectorgroup_list_applications.md) |[application](application.md) collection| Get the associated application object collection.|
-|[Create connector](../api/connectorgroup_post_members.md) |[connector](connector.md)| Add a connector to the connector Group by posting to the members collection.|
-|[List members](../api/connectorgroup_list_members.md) |[connector](connector.md) collection| Get a connector object collection.|
-|[Update](../api/connectorgroup_update.md) | [connectorGroup](connectorgroup.md)	|Update connectorGroup object. |
-|[Delete](../api/connectorgroup_delete.md) | None |Delete connectorGroup object. All connectors must be remove before a conector group can be deleted. |
+|[Create connectors](../api/connectorgroup_post_members.md) |[connectors](connector.md)| Add a connector to the connector Group by posting to the members collection.|
+|[List members](../api/connectorgroup_list_members.md) |[connectors](connector.md) collection| Get a connectors object collection.|
+|[Update](../api/connectorgroup_update.md) | [connectorGroups](connectorgroup.md)	|Update connectorGroups object. |
+|[Delete](../api/connectorgroup_delete.md) | None |Delete connectorGroups object. All connectors must be remove before a conector group can be deleted. |
 
 ### Properties
 | Property	   | Type	|Description|
@@ -27,7 +27,7 @@
 | Relationship | Type	|Description|
 |:---------------|:--------|:----------|
 |applications|[application](application.md) collection| Read-only. Nullable.|
-|members|[connector](connector.md) collection| Read-only. Nullable.|
+|members|[connectors](connector.md) collection| Read-only. Nullable.|
 
 ### JSON representation
 

@@ -1,6 +1,6 @@
-# Create application
+# Associate an application with a ConnectorGroups
 
-Use this API to create a new application.
+Use this API to create a new association between application an application and a connectorGroups.
 ### Prerequisites
 The following **scopes** are required to execute this API: *Directory.ReadWrite.All Or Directory.AccessAsUser.All*
 ### HTTP request

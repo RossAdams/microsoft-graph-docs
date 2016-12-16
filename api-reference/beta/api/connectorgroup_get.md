@@ -1,6 +1,6 @@
-# Get connectorGroup
+# Get connectorGroups
 
-Retrieve the properties of a connectorGroup object.
+Retrieve the properties of a connectorGroups object.
 ### Prerequisites
 The following **scopes** are required to execute this API: *Directory.ReadWrite.All Or Directory.AccessAsUser.All*
 ### HTTP request
@@ -19,7 +19,7 @@ This method supports the [OData Query Parameters](http://graph.microsoft.io/docs
 ### Request body
 Do not supply a request body for this method.
 ### Response
-If successful, this method returns a `200 OK` response code and [connectorGroup](../resources/connectorgroup.md) object in the response body.
+If successful, this method returns a `200 OK` response code and [connectorGroups](../resources/connectorgroup.md) object in the response body.
 ### Example
 ##### Request
 Here is an example of the request.
